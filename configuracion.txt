@@ -1,0 +1,4 @@
+porto=6677
+ruta=www/ficheiros
+extensions=html,txt,jpg,gif
+erro404=nonatopado.html
