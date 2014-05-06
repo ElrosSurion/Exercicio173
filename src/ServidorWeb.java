@@ -88,6 +88,8 @@ public class ServidorWeb {
                         outToClient.writeBytes("\r\n");
                         outToClient.write(fileInBytes, 0, numOfBytes);
                     }
+                } else {
+                    System.out.println("Extensión de arquivo incorrecta.");
                 }
                 
                 // ler, sen tratar, o resto de liñas da petición
